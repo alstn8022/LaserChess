@@ -28,7 +28,7 @@ if pos == "d" :
             else:
                 print("-1")
  if pos == "d" :
-        if y1 = y2
+        if y1 = y2:
             if x1 > x2:
                 print("2")
             elif x1 < x2:
