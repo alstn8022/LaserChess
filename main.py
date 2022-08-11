@@ -13,7 +13,7 @@ if pos == "d" :
             print("2")
         elif x1 < x2:
             print("2")
-        elif x1 = x2:
+        elif x1 == x2:
             print("3")
         else:
             print("-1")
@@ -23,7 +23,7 @@ if pos == "d" :
                 print("1")
             elif x1 < x2:
                 print("1")
-            elif x1 = x2:
+            elif x1 == x2:
                 print("3")
             else:
                 print("-1")
@@ -42,7 +42,7 @@ if pos == "u" :
             print("1")
         elif x1 < x2:
             print("1")
-        elif x1 = x2:
+        elif x1 == x2:
             print("3")
         else:
             print("-1")
@@ -52,7 +52,7 @@ if pos == "u" :
                 print("2")
             elif x1 < x2:
                 print("2")
-            elif x1 = x2:
+            elif x1 == x2:
                 print("3")
             else:
                 print("-1")
@@ -71,7 +71,7 @@ if pos == "l" :
             print("1")
         elif x1 < x2:
             print("2")
-        elif x1 = x2:
+        elif x1 == x2:
             print("2")
         else:
             print("-1")
@@ -81,7 +81,7 @@ if pos == "l" :
             print("1")
         elif x1 < x2:
             print("2")
-        elif x1 = x2:
+        elif x1 == x2:
             print("2")
         else:
             print("-1")
@@ -100,7 +100,7 @@ if pos == "r" :
             print("2")
         elif x1 < x2:
             print("1")
-        elif x1 = x2:
+        elif x1 == x2:
             print("2")
         else:
             print("-1")
@@ -110,7 +110,7 @@ if pos == "r" :
             print("2")
         elif x1 < x2:
             print("1")
-        elif x1 = x2:
+        elif x1 == x2:
             print("2")
         else:
             print("-1")
