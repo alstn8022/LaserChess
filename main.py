@@ -1,4 +1,4 @@
-x1, y1 alignedFrom = [x for in input().split()]
+x1, y1, alignedFrom = [x for x in input().split()]
 x2, y2 = [int(x) for x in input().split()]
 
 x1 = int(x1)
