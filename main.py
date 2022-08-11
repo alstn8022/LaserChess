@@ -27,7 +27,7 @@ if pos == "d" :
                 print("0")
             else:
                 print("-1")
- if pos == "d" :
+if pos == "d" :
         if y1 = y2:
             if x1 > x2:
                 print("2")
@@ -35,3 +35,91 @@ if pos == "d" :
                 print("2")
             else:
                 print("-1")
+
+if pos == "u" :
+    if y1 > y2:
+        if x1 > x2:
+            print("1")
+        elif x1 < x2:
+            print("1")
+        elif x1 = x2:
+            print("0")
+        else:
+            print("-1")
+if pos == "u" :
+        if y1 < y2:
+            if x1 > x2:
+                print("2")
+            elif x1 < x2:
+                print("2")
+            elif x1 = x2:
+                print("3")
+            else:
+                print("-1")
+if pos == "u" :
+        if y1 = y2:
+            if x1 > x2:
+                print("2")
+            elif x1 < x2:
+                print("2")
+            else:
+                print("-1")
+
+if pos == "l" :
+    if y1 > y2:
+        if x1 > x2:
+            print("1")
+        elif x1 < x2:
+            print("2")
+        elif x1 = x2:
+            print("2")
+        else:
+            print("-1")
+if pos == "l" :
+    if y1 < y2:
+        if x1 > x2:
+            print("1")
+        elif x1 < x2:
+            print("2")
+        elif x1 = x2:
+            print("2")
+        else:
+            print("-1")
+if pos == "l" :
+    if y1 = y2:
+        if x1 > x2:
+            print("0")
+        elif x1 < x2:
+            print("3")
+        else:
+            print("-1")
+            
+if pos == "r" :
+    if y1 > y2:
+        if x1 > x2:
+            print("2")
+        elif x1 < x2:
+            print("1")
+        elif x1 = x2:
+            print("2")
+        else:
+            print("-1")
+if pos == "r" :
+    if y1 < y2:
+        if x1 > x2:
+            print("2")
+        elif x1 < x2:
+            print("1")
+        elif x1 = x2:
+            print("2")
+        else:
+            print("-1")
+if pos == "r" :
+    if y1 = y2:
+        if x1 > x2:
+            print("3")
+        elif x1 < x2:
+            print("0")
+        else:
+            print("-1")
+       
