@@ -1,5 +1,5 @@
 # LaserChess
-This code is for ICODI H.W.
+This project is for ICODI H.W.
 
 # To-Do
 - [x] Pos D
