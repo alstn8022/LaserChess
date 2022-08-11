@@ -24,7 +24,7 @@ if pos == "d" :
             elif x1 < x2:
                 print("1")
             elif x1 = x2:
-                print("0")
+                print("3")
             else:
                 print("-1")
 if pos == "d" :
@@ -43,7 +43,7 @@ if pos == "u" :
         elif x1 < x2:
             print("1")
         elif x1 = x2:
-            print("0")
+            print("3")
         else:
             print("-1")
 if pos == "u" :
@@ -88,7 +88,7 @@ if pos == "l" :
 if pos == "l" :
     if y1 = y2:
         if x1 > x2:
-            print("0")
+            print("3")
         elif x1 < x2:
             print("3")
         else:
@@ -119,7 +119,7 @@ if pos == "r" :
         if x1 > x2:
             print("3")
         elif x1 < x2:
-            print("0")
+            print("3")
         else:
             print("-1")
        
