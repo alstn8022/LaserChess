@@ -1,5 +1,5 @@
 # LaserChess
-* This project is for ICODI H.W.
+* This project is for ICODI Assignment
 
 # Description
 * 병선이는 요즘 레이저 체스를 즐기고 있다.
