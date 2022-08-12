@@ -1,5 +1,5 @@
 # LaserChess
-This project is for ICODI H.W.
+* This project is for ICODI H.W.
 
 # To-Do
 - [x] Pos D
@@ -12,4 +12,5 @@ This project is for ICODI H.W.
 [ICODI JUDGE](http://1.238.69.9:7500)
 
 # Caution
-I'm working on bug fixing, but it still may contain bugs.
+* I'm working on bug fixing, but it still may contain bugs.
+* Nogada Code. It means BalJeokWha.
