@@ -14,7 +14,7 @@
 ## Footnote
 1. 방향은 u, d, l, r을 사용하여 나타내며, 각각 위, 아래, 왼쪽, 오른쪽 방향을 의미한다.
 2. 체스판 위에서의 방향과 좌표는 아래 그림과 같다.
-
+![A543188E-D706-45D2-9884-247D678679B2](https://user-images.githubusercontent.com/72611608/184272669-105cbde9-b655-4852-9fec-4b41d179ac1d.png)
 
 # To-Do
 - [x] Pos D
