@@ -20,6 +20,7 @@
 ![A543188E-D706-45D2-9884-247D678679B2](https://user-images.githubusercontent.com/72611608/184272669-105cbde9-b655-4852-9fec-4b41d179ac1d.png)
 
 # To-Do
+- [x] Input
 - [x] Position d
 - [x] Position u
 - [x] Position l
