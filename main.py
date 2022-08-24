@@ -3,130 +3,77 @@ x2, y2 = [int(x) for x in input().split()]
 
 x1 = int(x1)
 y1 = int(y1)
-pos = input()
+
 x2 = int(x2)
 y2 = int(y2)
 
 if pos == "d":
-    if y1 > y2:
-        if x1 > x2:
-            print("2")
-        elif x1 < x2:
-            print("2")
-        elif x1 == x2:
+    if y1 == 9:
+        print("-1")
+    elif y1 == y2:
+        print("2")
+    elif y1 > y2:
+        if x1 == x2:
             print("3")
-        else:
-            print("-1")
-
-if pos == "d":
-    if y1 < y2:
-        if x1 > x2:
-            print("1")
-        elif x1 < x2:
-            print("1")
-        elif x1 == x2:
-            print("3")
-        else:
-            print("-1")
-
-if pos == "d":
-    if y1 == x2:
-        if x1 > x2:
+        else: 
             print("2")
-        elif x1 < x2:
-            print("2")
-        else:
-            print("-1")
-
+    else:
+        if x1 == x2:
+            print("0")
+        else: 
+            print("1")
+            
 if pos == "u":
-    if y1 > y2:
-        if x1 > x2:
+    if y1 == 1:
+        print("-1")
+    elif y1 == y2:
+        print("2")
+    elif y1 > y2:
+        if x1 == x2:
+            print("0")
+        else:
             print("1")
-        elif x1 < x2:
-            print("1")
-        elif x1 == x2:
+    else:
+        if x1 == x2:
             print("3")
         else:
-            print("-1")
-
-if pos == "u":
-    if y1 < y2:
-        if x1 > x2:
             print("2")
-        elif x1 < x2:
-            print("2")
-        elif x1 == x2:
-            print("3")
-        else:
-            print("-1")
-
-if pos == "u":
-    if y1 == y2:
-        if x1 > x2:
-            print("2")
-        elif x1 < x2:
-            print("2")
-        else:
-            print("-1")
-
+            
 if pos == "l":
-    if y1 > y2:
+    if x1 == 1:
+        print("-1")
+    elif y1 == y2:
+        if x1 > x2:
+            print("0")
+        else:
+            print("3")
+    elif y1 > y2:
         if x1 > x2:
             print("1")
-        elif x1 < x2:
+        elif:
             print("2")
-        elif x1 == x2:
-            print("2")
-        else:
-            print("-1")
-
-if pos == "l":
-    if y1 < y2:
+    else:
         if x1 > x2:
             print("1")
-        elif x1 < x2:
-            print("2")
-        elif x1 == x2:
-            print("2")
         else:
-            print("-1")
-
-if pos == "l":
-    if y1 == y2:
-        if x1 > x2:
-            print("3")
-        elif x1 < x2:
-            print("3")
-        else:
-            print("-1")
+            print("2")
             
 if pos == "r":
-    if y1 > y2:
-        if x1 > x2:
-            print("2")
-        elif x1 < x2:
-            print("1")
-        elif x1 == x2:
-            print("2")
-        else:
-            print("-1")
-
-if pos == "r":
-    if y1 < y2:
-        if x1 > x2:
-            print("2")
-        elif x1 < x2:
-            print("1")
-        elif x1 == x2:
-            print("2")
-        else:
-            print("-1")
-
-if pos == "r":
-    if y1 == y2:
+    if x1 == 9:
+        print("-1")
+    elif y1 == y2:
         if x1 > x2:
             print("3")
-        elif x1 < x2:
-            print("3")
         else:
-            print("-1")
+            print("0")
+    elif y1 > y2:
+        if x1 > x2:
+            print("2")
+        else:
+            print("1")
+    else:
+        if x1 > x2:
+            print("2")
+        else:
+            print("1")
+            
