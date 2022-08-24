@@ -1,4 +1,4 @@
-x1, y1, alignedFrom = [x for x in input().split()]
+x1, y1, pos = [x for x in input().split()]
 x2, y2 = [int(x) for x in input().split()]
 
 x1 = int(x1)
@@ -24,7 +24,7 @@ if pos == "d":
             print("1")
             
 if pos == "u":
-    if y1 == 1:
+    if y1 == 0:
         print("-1")
     elif y1 == y2:
         print("2")
@@ -40,7 +40,7 @@ if pos == "u":
             print("2")
             
 if pos == "l":
-    if x1 == 1:
+    if x1 == 0:
         print("-1")
     elif y1 == y2:
         if x1 > x2:
@@ -67,12 +67,12 @@ if pos == "r":
         else:
             print("0")
     elif y1 > y2:
-        if x1 > x2:
+        if x1 >= x2:
             print("2")
         else:
             print("1")
     else:
-        if x1 > x2:
+        if x1 >= x2:
             print("2")
         else:
             print("1")
