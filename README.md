@@ -25,8 +25,8 @@
 - [x] Position u
 - [x] Position l
 - [x] Position r
-- [ ] Perfect Debuging
-- [ ] Testing
+- [x] Perfect Debuging
+- [x] Testing
 
 # JUDGE
 [ICODI JUDGE](http://1.238.69.9:7500)
