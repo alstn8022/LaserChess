@@ -50,7 +50,7 @@ if pos == "l":
     elif y1 > y2:
         if x1 > x2:
             print("1")
-        elif:
+        else:
             print("2")
     else:
         if x1 > x2:
