@@ -15,14 +15,14 @@ if pos == "d":
     elif y1 > y2:
         if x1 == x2:
             print("3")
-        else: 
+        else:
             print("2")
     else:
         if x1 == x2:
             print("0")
-        else: 
+        else:
             print("1")
-            
+
 if pos == "u":
     if y1 == 0:
         print("-1")
@@ -38,7 +38,7 @@ if pos == "u":
             print("3")
         else:
             print("2")
-            
+
 if pos == "l":
     if x1 == 0:
         print("-1")
@@ -57,7 +57,7 @@ if pos == "l":
             print("1")
         else:
             print("2")
-            
+
 if pos == "r":
     if x1 == 9:
         print("-1")
