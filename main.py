@@ -1,5 +1,5 @@
-x1, y1, pos = [x for x in input().split()]
-x2, y2 = [int(x) for x in input().split()]
+x1, y1, pos = [x for x in input().split(',')]
+x2, y2 = [int(x) for x in input().split(',')]
 
 x1 = int(x1)
 y1 = int(y1)
